@@ -50,3 +50,50 @@ header{
 .nav__item{
     margin: 0 8px;
 }
+
+.nav__link{
+    padding: 10px;
+    color: #eee;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.nav__link:hover{
+    background-color: rgb(41, 41, 128);
+}
+
+.header__toggle, 
+.header__close{
+    display: none;
+}
+
+@media screen and (max-width: 760px) {
+    header{
+        height: 48px;
+        justify-content: space-between;
+        padding: 0 28px;
+    }
+
+    .logo a{
+        font-size: 0.9rem;
+    }
+
+    .logo img{
+        width: 30px;
+    }
+
+    .header__toggle{
+        display: inline;
+        color: #eee;
+        font-size: 24px;
+    }
+
+    .header__close{
+        position: absolute;
+        right: 24px;
+        display: block;
+        font-size: 24px;
+        border-radius: 50%;
+    }
+}
