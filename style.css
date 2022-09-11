@@ -96,4 +96,35 @@ header{
         font-size: 24px;
         border-radius: 50%;
     }
+
+    .header__close:hover{
+        background-color: rgb(41, 41, 128);
+    }
+
+    .nav{
+        position: fixed;
+        top: 0;
+        right: -100px;
+        background-color: #222833;
+        color: #eee;
+        width: 60%;
+        height: 100vh;
+        padding: 24px 0;
+        z-index: 100;
+        transition: 0.5s;
+        border-radius: 0 0 0 50%;
+    }
+
+    .nav__list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav__item{
+        margin: 2rem 0;
+    }
+
+    .show{
+        right: 0;
+    }
 }
