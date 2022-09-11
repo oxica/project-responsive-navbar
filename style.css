@@ -91,7 +91,7 @@ header{
 
     .header__close{
         position: absolute;
-        right: 24px;
+        right: 120px;
         display: block;
         font-size: 24px;
         border-radius: 50%;
