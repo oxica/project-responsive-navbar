@@ -91,6 +91,7 @@ header{
 
     .header__close{
         position: absolute;
+        top: 20px;
         right: 30px;
         display: block;
         font-size: 24px;
